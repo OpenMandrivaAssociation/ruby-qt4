@@ -14,6 +14,7 @@ BuildRequires: kde4-macros
 BuildRequires: cmake
 BuildRequires: qscintilla-qt4-devel
 BuildRequires: ruby-devel
+BuildRequires: ruby
 
 %description
 A qt4 bindings for Ruby language.
