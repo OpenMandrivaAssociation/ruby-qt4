@@ -1,6 +1,6 @@
 Name:    ruby-qt4
 Summary: Ruby Qt 4 bindings
-Version: 4.7.95
+Version: 4.7.97
 Release: 1
 Epoch:   1
 Group:   Development/KDE and Qt
