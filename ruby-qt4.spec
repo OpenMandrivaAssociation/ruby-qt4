@@ -1,7 +1,7 @@
 Name:    ruby-qt4
 Summary: Ruby Qt 4 bindings
 Version: 4.8.0
-Release: 1
+Release: 2
 Epoch:   1
 Group:   Development/KDE and Qt
 License: GPLv2 LGPLv2
