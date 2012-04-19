@@ -1,12 +1,12 @@
 Name:    ruby-qt4
 Summary: Ruby Qt 4 bindings
-Version: 4.8.1
+Version: 4.8.2
 Release: 1
 Epoch:   1
 Group:   Development/KDE and Qt
 License: GPLv2 LGPLv2
 URL:     http://www.kde.org
-Source:  ftp://ftp.kde.org/pub/kde/stable/%version/src/qtruby-%version.tar.bz2
+Source:  ftp://ftp.kde.org/pub/kde/stable/%version/src/qtruby-%version.tar.xz
 Buildrequires: kdelibs4-devel >= 2:%version
 BuildRequires: smokeqt-devel >= 1:%version
 BuildRequires: phonon-devel
