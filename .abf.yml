@@ -1,4 +1,2 @@
-removed_sources:
-  qtruby-4.9.4.tar.xz: 4f6f57b7f99b540b126534b8f9208cc1419b7e9a
 sources:
-  qtruby-4.9.98.tar.xz: 52ab2ba36a0949420f35e837a67178f783ac85c7
+  qtruby-4.10.0.tar.xz: 0a6a8617d34153d87d59a610e38e870f41e4ea25
