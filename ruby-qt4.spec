@@ -15,7 +15,7 @@ URL:		http://www.kde.org
 Source:		ftp://ftp.kde.org/pub/kde/%{ftpdir}/%{version}/src/qtruby-%{version}.tar.xz
 BuildRequires:	cmake
 BuildRequires:	kde4-macros
-Buildrequires:	kdelibs4-devel
+BuildRequires:	kdelibs4-devel
 BuildRequires:	smokeqt-devel >= 1:%{version}
 BuildRequires:	phonon-devel
 BuildRequires:	qscintilla-qt4-devel
