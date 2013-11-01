@@ -1,7 +1,7 @@
 Name:		ruby-qt4
 Summary:	Ruby Qt4 bindings
 Version:	4.11.2
-Release:	1
+Release:	2
 Epoch:		1
 Group:		Development/KDE and Qt
 License:	GPLv2 LGPLv2
@@ -12,7 +12,7 @@ URL:		http://www.kde.org
 %else
 %define ftpdir stable
 %endif
-Source:		ftp://ftp.kde.org/pub/kde/%{ftpdir}/%{version}/src/qtruby-%{version}.tar.xz
+Source0:	ftp://ftp.kde.org/pub/kde/%{ftpdir}/%{version}/src/qtruby-%{version}.tar.xz
 BuildRequires:	cmake
 BuildRequires:	kde4-macros
 BuildRequires:	kdelibs4-devel
