@@ -1,7 +1,7 @@
 Name:		ruby-qt4
 Summary:	Ruby Qt4 bindings
-Version:	4.11.2
-Release:	2
+Version:	4.11.3
+Release:	1
 Epoch:		1
 Group:		Development/KDE and Qt
 License:	GPLv2 LGPLv2
@@ -94,6 +94,9 @@ ruby-qt4 devel files.
 %makeinstall_std -C build
 
 %changelog
+* Wed Nov 06 2013 Andrey Bondrov <andrey.bondrov@rosalab.ru> 1:4.11.3-1
+- New version 4.11.3
+
 * Wed Oct 02 2013 Andrey Bondrov <andrey.bondrov@rosalab.ru> 1:4.11.2-1
 - New version 4.11.2
 
