@@ -1,11 +1,11 @@
-Name:		ruby-qt4
 Summary:	Ruby Qt4 bindings
+Name:		ruby-qt4
 Version:	4.13.2
 Release:	1
 Epoch:		1
+License:	GPLv2+ and LGPLv2.1+
 Group:		Development/KDE and Qt
-License:	GPLv2 LGPLv2
-URL:		http://www.kde.org
+Url:		http://www.kde.org
 %define is_beta %(if test `echo %version |cut -d. -f3` -ge 70; then echo -n 1; else echo -n 0; fi)
 %if %{is_beta}
 %define ftpdir unstable
@@ -15,12 +15,12 @@ URL:		http://www.kde.org
 Source0:	ftp://ftp.kde.org/pub/kde/%{ftpdir}/%{version}/src/qtruby-%{version}.tar.xz
 BuildRequires:	cmake
 BuildRequires:	kde4-macros
+BuildRequires:	ruby
 BuildRequires:	kdelibs4-devel
-BuildRequires:	smokeqt-devel >= 1:%{version}
-BuildRequires:	phonon-devel
 BuildRequires:	qscintilla-qt4-devel
 BuildRequires:	ruby-devel
-BuildRequires:	ruby
+BuildRequires:	smokeqt-devel >= 1:%{version}
+BuildRequires:	pkgconfig(phonon)
 
 %description
 A Qt4 bindings for Ruby language.
